@@ -346,8 +346,7 @@ export default function AIWebsiteOfferPage() {
 
         <div className="relative mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <div className="grid gap-14 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
-            <div className="max-w-xl">
-              <h2 className="mt-4 text-4xl font-bold leading-tight tracking-[-0.03em] text-white md:text-5xl">
+            <div className="max-w-xl">              <h2 className="mt-4 text-4xl font-bold leading-tight tracking-[-0.03em] text-white md:text-5xl">
                 {t.processTitle}
               </h2>
               <p className="mt-6 text-lg leading-8 text-white/70">
@@ -369,9 +368,7 @@ export default function AIWebsiteOfferPage() {
                       <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white text-base font-bold text-[#232838] shadow-[0_8px_20px_rgba(255,255,255,0.12)]">
                         {index + 1}
                       </div>
-                      <div className="pt-2 text-lg font-semibold leading-7 text-white/92">
-                        {step}
-                      </div>
+                      <div className="pt-2 text-lg font-semibold leading-7 text-white/92">{step}</div>
                     </div>
                   </div>
                 ))}
