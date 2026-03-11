@@ -302,7 +302,7 @@ export default function AIWebsiteOfferPage() {
                   {card.lines.map((line) => (
                     <div
                       key={line}
-                      className="flex min-h-[88px] items-start rounded-2xl bg-white/6 px-4 py-4 font-medium"
+                      className="flex min-h-[88px] items-start rounded-2xl bg-[#313b55] px-4 py-4 font-medium"
                     >
                       <span>{line}</span>
                     </div>
@@ -347,9 +347,6 @@ export default function AIWebsiteOfferPage() {
         <div className="relative mx-auto max-w-7xl px-6 py-24 lg:px-8">
           <div className="grid gap-14 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
             <div className="max-w-xl">
-              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-white/45">
-                PROCESS
-              </p>
               <h2 className="mt-4 text-4xl font-bold leading-tight tracking-[-0.03em] text-white md:text-5xl">
                 {t.processTitle}
               </h2>
